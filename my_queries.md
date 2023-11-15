@@ -1,3 +1,5 @@
+### Exploratory data analysis  
+
 **1.** Print the company_name field. Find the number of taxi rides for each taxi company for November 15-16, 2017, name the resulting field trips_amount and print it, too. Sort the results by the trips_amount field in descending order.
 ```sql  
 SELECT
@@ -129,6 +131,9 @@ ORDER BY
   | Other |	335771 |  
   | Flash Cab |	64084 |
   | Taxi Affiliation Services	| 37583 |
+
+  
+### Determine if and how the duration of rides from the Loop to O'Hare International Airport changes on rainy Saturdays compared to other days of the week and other weather conditions.
 
 **4.** Retrieve the identifiers of the O'Hare and Loop neighborhoods from the neighborhoods table.
 ```sql
