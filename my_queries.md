@@ -595,7 +595,9 @@ ORDER BY trips.trip_id;
   
 **7.** Compute the average duration for the different weather conditions
 ```sql
-SELECT weather_conditions, avg(duration_seconds) as avg_duration_seconds
+SELECT 
+    weather_conditions, 
+    AVG(duration_seconds) AS avg_duration_seconds
 FROM
     (SELECT
         trips.start_ts,
