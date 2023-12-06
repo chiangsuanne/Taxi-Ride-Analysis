@@ -621,6 +621,3 @@ FROM
   | -------------| --------------|
   | Bad	| 2427.21 |
   | Good |	1999.68 |
-
-### Conclusion
-The analyses show that trip durations that started in the Loop on a Saturday and ended at O'Hare tend to be more or less consistently longer on bad weather conditions, which suggest that weather conditions may play a notable role in influencing ride durations.
