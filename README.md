@@ -1,7 +1,11 @@
-# Zuber-Database-Analysis
+# Zuber Database Analysis
 ## Introduction
-You're working as an analyst for Zuber, a new ride-sharing company that's launching in Chicago. Your task is to find patterns in the available information. You want to understand passenger preferences and the impact of external factors on rides.
-Working with a database, you'll analyze data from competitors and test a hypothesis about the impact of weather on ride frequency. 
+A SQL project to analyze taxi ride data for Zuber, a ride-sharing company, to test a hypothesis about the impact of weather on ride frequency.    
+### Company Overview
+Zuber is a burgeoning ride-sharing company set to revolutionize transportation in Chicago. Committed to providing efficient and convenient rides, Zuber aims to optimize the passenger experience through data-driven insights and innovative solutions.   
+### Project Overview
+As an analyst at Zuber, I addressed critical business challenges by conducting an in-depth analysis of taxi ride data, utilizing SQL JOIN to correlate trips and weather records. This resulted in valuable insights into passenger behavior and external factors' impact on rides, empowering Zuber's strategic decision-making.    
+
 ## Description of the data 
 A database with info on taxi rides in Chicago:  
 
@@ -34,14 +38,20 @@ A database with info on taxi rides in Chicago:
 ![Image (17)](https://github.com/chiangsuanne/Zuber-Database-Analysis/assets/108243961/e731db81-278b-4a10-a286-d49e9a127f7f)
 
 ## Project Analysis
-### Exploratory data analysis
-1. Find the number of taxi rides for each taxi company for November 15-16, 2017. Name the resulting field trips_amount and print it along with the company_name field. Sort the results by the trips_amount field in descending order.
-2. Find the number of rides for every taxi company whose name contains the words "Yellow" or "Blue" for November 1-7, 2017. Name the resulting variable trips_amount. Group the results by the company_name field.
-3. In November 2017, the most popular taxi companies were Flash Cab and Taxi Affiliation Services. Find the number of rides for these two companies and name the resulting variable trips_amount. Join the rides for all other companies in the group "Other." Group the data by taxi company names. Name the field with taxi company names company. Sort the result in descending order by trips_amount.
-### Determine if and how the duration of rides from the Loop to O'Hare International Airport changes on rainy Saturdays compared to other days of the week and other weather conditions.
-1. Retrieve the identifiers of the O'Hare and Loop neighborhoods from the neighborhoods table.
-2. For each hour, retrieve the weather condition records from the weather_records table. Using the CASE operator, break all hours into two groups: "Bad" if the description field contains the words "rain" or "storm," and "Good" for others. Name the resulting field weather_conditions. The final table must include two fields: date and hour (ts) and weather_conditions.
-3. Retrieve from the trips table all the rides that started in the Loop (neighborhood_id: 50) and ended at O'Hare (neighborhood_id: 63) on a Saturday. Get the weather conditions for each ride. Use the method you applied in the previous task. Also retrieve the duration of each ride. Ignore rides for which data on weather conditions is not available.
+**Analyzing Taxi Ride Patterns**    
+Explored and analyzed taxi ride data, identifying key patterns and preferences. This enhanced our understanding of passenger behavior and the impact of external factors on rides. The analysis involved using SQL JOIN to link trips and weather records in Zuber's database.    
+
+**Investigating Taxi Ride Statistics for November 15-16, 2017**    
+Determined the number of taxi rides for each company during this period, providing insights into ride frequency. The results were presented by sorting the data based on trips_amount.    
+
+**Analyzing Taxi Rides for "Yellow" or "Blue" Companies from November 1-7, 2017**    
+Calculated the number of rides for companies containing the keywords "Yellow" or "Blue," highlighting ride volume. The data was grouped by company_name to show relevant statistics.    
+
+**Assessing Ride Frequency for Selected Taxi Companies in November 2017**    
+Investigated ride counts for specific companies (Flash Cab and Taxi Affiliation Services) and provided a comparative analysis with other companies grouped as "Other." This enhanced our understanding of market dynamics and competition.    
+
+**Analyzing Loop to O'Hare Airport Rides on Rainy Saturdays**    
+Examined ride duration changes based on weather conditions, identifying patterns in rides from the Loop to O'Hare on rainy Saturdays. Utilized neighborhood data, weather records, and SQL queries to categorize conditions, extract relevant trip data, and obtain ride durations.    
 
 ## Project Insight
 ### Conclusion
