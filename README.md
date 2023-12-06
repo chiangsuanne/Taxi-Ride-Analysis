@@ -42,3 +42,6 @@ A database with info on taxi rides in Chicago:
 1. Retrieve the identifiers of the O'Hare and Loop neighborhoods from the neighborhoods table.
 2. For each hour, retrieve the weather condition records from the weather_records table. Using the CASE operator, break all hours into two groups: "Bad" if the description field contains the words "rain" or "storm," and "Good" for others. Name the resulting field weather_conditions. The final table must include two fields: date and hour (ts) and weather_conditions.
 3. Retrieve from the trips table all the rides that started in the Loop (neighborhood_id: 50) and ended at O'Hare (neighborhood_id: 63) on a Saturday. Get the weather conditions for each ride. Use the method you applied in the previous task. Also retrieve the duration of each ride. Ignore rides for which data on weather conditions is not available.
+
+## Conclusion
+The analyses show that trip durations that started in the Loop on a Saturday and ended at O'Hare tend to be more or less consistently longer on bad weather conditions, which suggest that weather conditions may play a notable role in influencing ride durations.
