@@ -57,7 +57,7 @@ Examined ride duration changes based on weather conditions, identifying patterns
 ### Conclusion
 1. The five enterprises with the most considerable number of trips are (descending order): Flash Cab, Taxi Affiliation Services, Medallion Leasing, Yellow Cab, and Taxi Affiliation Service Yellow
 2. There is a discrepancy in the average trip duration from the Loop to O’Hare International Airport on rainy Saturdays, as it is longer on bad weather conditions, which suggest that weather conditions may play a notable role in influencing ride durations.  
-### Suggestions for Further Improvement or Business Outcomes 
+### Suggestions for Further Improvement
 1. **Enhance Service Allocation:**  
     - Allocate resources strategically by recognizing the popularity of Flash Cab, Taxi Affiliation Services, Medallion Leasing, Yellow Cab, and Taxi Affiliation Service Yellow. Consider optimizing fleet distribution based on demand patterns for these key players.  
 2. **Weather-Responsive Pricing Models:**  
