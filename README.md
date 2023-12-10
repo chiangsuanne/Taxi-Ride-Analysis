@@ -1,4 +1,4 @@
-# Zuber Database Analysis
+# Taxi Ride Analysis
 ## Introduction
 A SQL project to analyze taxi ride data for Zuber, a ride-sharing company, to test a hypothesis about the impact of weather on ride frequency.    
 ### Company Overview
